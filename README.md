@@ -5,7 +5,7 @@
 * [Introduction](#Introduction)
 * [Project Description](#Project-Description)
 * [Getting Started](#Getting-Started)
-* [Database Schema](#Application-Deployment-Diagram)
+* [Application Deployment Diagram](#Application-Deployment-Diagram)
 * [Prerequisites](#Prerequisites)
 * [Running the tests](#Running-the-tests)
 * [Built With](#Built-With)
