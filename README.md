@@ -33,7 +33,8 @@ This needs to be done in an automated fashion so that the infrastructure can be 
 ### Getting Started
 #### Run aws cloudformation scripts below
 
-###### From the project root folder run:
+###### From the project root folder run for:
+
 Network Deployment: aws cloudformation create-stack --stack-name iacUdacitynetwork --template-body file://Network.yml --parameters file://network-parameters.json
 
 Servers Deployment: aws cloudformation create-stack --stack-name iacUdacityServers --template-body file://Servers.yml --parameters file://Servers-parameters.json --capabilities CAPABILITY_IAM
