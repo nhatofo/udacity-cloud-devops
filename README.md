@@ -31,7 +31,7 @@ The project is to deploying the application, along with the necessary supporting
 This needs to be done in an automated fashion so that the infrastructure can be discarded as soon as the testing team finishes their tests and gathers their results.
 
 ### Getting Started
-#### Run Python scripts below
+#### Run aws cloudformation scripts below
 
 From the project root folder run:
 Network Deployment: aws cloudformation create-stack --stack-name iacUdacitynetwork --template-body file://Network.yml --parameters file://network-parameters.json
