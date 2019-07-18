@@ -49,9 +49,6 @@ Run the script from terminal(Windows, Linux ou Mac) with AWS client application 
 
 AWS accout provisioned with, S3 bucket,  and IAM role with admin level access to connect a AWS. 
 
-### Installing
-Use the etl.ipynd notebook to develop the ETL process for each of tables before completing running the  etl.py file to read data from S3, processes that data using Spark, and writes them back to S3.
-
 
 ### Running the tests
 Test by using the aws console to verify if the stack were created as expected.
@@ -59,8 +56,8 @@ Test by using the aws console to verify if the stack were created as expected.
 
 ### Built With
 
-* [AWS](https://aws.amazon.com/) - Amazon Web Services
-* [Lucidchart](https://www.lucidchart.com/pages/?noHomepageRedirect=true) - Diagrams done right
+* [AWS](https://aws.amazon.com/) - Amazon Web Services.
+* [Lucidchart](https://www.lucidchart.com/pages/?noHomepageRedirect=true) - Diagrams done right.
 
 
 ### Contributing
@@ -69,7 +66,7 @@ Test by using the aws console to verify if the stack were created as expected.
 
 ### Authors
 
-* **Teofilo Carlos Chichume** - *Initial work* - [nhatofo](https://github.com/nhatofo/udacity_dl)
+* **Teofilo Carlos Chichume** - *Initial work* - [nhatofo](https://github.com/nhatofo/udacity-cloud-devops.git)
 
 
 ### License
