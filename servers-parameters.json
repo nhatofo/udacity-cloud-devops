@@ -1,0 +1,14 @@
+[
+    {
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "UdacityDevopsProject"
+    },
+    {
+        "ParameterKey": "S3CodeBucketName",
+        "ParameterValue": "teodevopsp1"
+    } ,
+    {
+        "ParameterKey": "S3CodeArchive",
+        "ParameterValue": "udagram.zip"
+    } 
+]
