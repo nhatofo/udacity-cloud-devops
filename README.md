@@ -1,7 +1,5 @@
 # Deploy a high-availability web app using CloudFormation.
 
-100% VIEWED
- on  AWS.
 
 ## Summary
 * [Introduction](#Introduction)
@@ -38,7 +36,7 @@ This needs to be done in an automated fashion so that the infrastructure can be 
 From the project root folder run:
 Network Deployment: aws cloudformation create-stack --stack-name iacUdacitynetwork --template-body file://Network.yml --parameters file://network-parameters.json
 
-Servers Deployment: aws cloudformation create-stack --stack-name iacUdacitynetwork --template-body file://Servers.yml --parameters file://Servers-parameters.json --capabilities CAPABILITY_IAM
+Servers Deployment: aws cloudformation create-stack --stack-name iacUdacityServers --template-body file://Servers.yml --parameters file://Servers-parameters.json --capabilities CAPABILITY_IAM
 
 Run the script from terminal(Windows, Linux ou Mac) with AWS client application installed and configured connect and run cloudformation scripts on AWS.
 
